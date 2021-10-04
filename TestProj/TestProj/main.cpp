@@ -212,6 +212,7 @@ void StartTests(int n, int* sizes, int p) {
 
 }
 int main() {
+
 	srand(time(NULL));
 	int countSizes, countRepeat;
 	cin >> countSizes >> countRepeat;
