@@ -13,8 +13,9 @@ int random(int a, int b)
 	if (a > 0) {
 		return a + r % (b - a);
 	}
-	else
+	else {
 		return a + r % (abs(a) + b);
+	}
 }
 int fact(int n) {
 	if (n == 0) {
